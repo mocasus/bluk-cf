@@ -85,7 +85,7 @@ def validate_token(
         # 2. Check Workers AI models access
         try:
             r = client.get(
-                f"{CLOUDFLARE_API}/accounts/{account_id}/workers/ai/models/search",
+                f"{CLOUDFLARE_API}/accounts/{account_id}/ai/models/search",
                 headers=headers,
             )
             data = r.json()
@@ -130,7 +130,7 @@ def get_models(api_token: str, account_id: str, timeout: int = 30) -> list[dict]
     }
     with httpx.Client(timeout=timeout, follow_redirects=True) as client:
         r = client.get(
-            f"{CLOUDFLARE_API}/accounts/{account_id}/workers/ai/models/search",
+            f"{CLOUDFLARE_API}/accounts/{account_id}/ai/models/search",
             headers=headers,
         )
         data = r.json()

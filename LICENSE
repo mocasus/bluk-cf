@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026
+Copyright (c) 2026 Cloudflare Auto Signup Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,21 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Third-Party Acknowledgments:
+
+This project uses the following open-source libraries:
+
+- nodriver (https://github.com/ultrafunkamsterdam/nodriver)
+  License: MIT — Copyright (c) Ultrafunk Amsterdam
+
+- OpenCV (https://opencv.org/)
+  License: Apache 2.0 — Copyright (c) OpenCV team
+
+- httpx (https://github.com/encode/httpx)
+  License: BSD 3-Clause — Copyright (c) Encode OSS Ltd.
+
+- Pillow (https://python-pillow.org/)
+  License: HPND — Copyright (c) Alex Clark and contributors
